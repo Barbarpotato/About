@@ -58,6 +58,10 @@ const App = () => {
         py={20}
       >
 
+        <Box className='stars'></Box>
+        <Box className='stars2'></Box>
+        <Box className='stars3'></Box>
+
         <Box py={{ base: 8, md: 12 }} borderBottomWidth={1} borderColor="#536189">
           <Box maxW="7xl" mx="auto" px={{ base: 4, md: 6 }}>
             <Heading as="h1" size={{ base: 'xl', md: '2xl' }} color="#faf9ff" mb={4}>
