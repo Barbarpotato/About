@@ -67,10 +67,6 @@ const App = () => {
         py={20}
       >
 
-        <Box className='stars'></Box>
-        <Box className='stars2'></Box>
-        <Box className='stars3'></Box>
-
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
