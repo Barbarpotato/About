@@ -232,7 +232,7 @@ function Hero() {
                                     >
                                         <Box
                                             as="img"
-                                            src="/images/Selfie3.png"
+                                            src={`${import.meta.env.BASE_URL}images/Selfie3.png`}
                                             alt="Darmawan"
                                             w="full"
                                             h="full"
@@ -302,7 +302,7 @@ function Hero() {
                                     <Box w="full" h="full" borderRadius="full" overflow="hidden" bg="#383a4a">
                                         <Box
                                             as="img"
-                                            src="/images/Selfie2.png"
+                                            src={`${import.meta.env.BASE_URL}images/Selfie2.png`}
                                             alt="Potret Darmawan"
                                             w="full"
                                             h="full"
@@ -358,7 +358,7 @@ function Hero() {
                                     >
                                         <Box
                                             as="img"
-                                            src="/images/Selfie1.png"
+                                            src={`${import.meta.env.BASE_URL}images/Selfie1.png`}
                                             alt="Potret Darmawan dengan kacamata"
                                             w="full"
                                             h="full"

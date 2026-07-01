@@ -69,7 +69,7 @@ const ITEMS = [
         ],
         media: {
             type: "IMAGE",
-            source: { url: "/images/timeline/yamalitb-certificate.jpg" },
+            source: { url: `${import.meta.env.BASE_URL}images/timeline/yamalitb-certificate.jpg` },
         },
     },
     {
@@ -84,7 +84,7 @@ const ITEMS = [
         ],
         media: {
             type: "IMAGE",
-            source: { url: "/images/timeline/ecoreen-certificate.jpg" },
+            source: { url: `${import.meta.env.BASE_URL}images/timeline/ecoreen-certificate.jpg` },
         },
     },
     {
@@ -101,7 +101,7 @@ const ITEMS = [
         ],
         media: {
             type: "IMAGE",
-            source: { url: "/images/timeline/bangkit-certificate.jpg" },
+            source: { url: `${import.meta.env.BASE_URL}images/timeline/bangkit-certificate.jpg` },
         },
     },
 ];
