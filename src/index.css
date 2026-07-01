@@ -1,3 +1,41 @@
+.stars-container {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/*
+  /** react-chrono overrides — keep title/subtitle first, media last,
+  /** and stop the internal wheel-scroll trap on the vertical timeline
+*/
+
+.timeline-main-wrapper {
+  overflow: visible !important;
+}
+
+.rc-card-text.card-description {
+  overflow: visible !important;
+  order: 2;
+}
+
+div[class*="MediaDetailsWrapper"] {
+  order: 1;
+}
+
+.rc-card-media {
+  order: 3;
+}
+
+header[class*="TimelineCardHeader"] {
+  order: 0;
+}
+
+span[class*="TriangleIconWrapper"] {
+  order: 4;
+}
+
 /*
   /** Chatbot kit CSS
 */
